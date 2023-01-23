@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .select-button {
+            display: inline-block;
+        }
+        #acc {
+            padding: 7px 35px;
+            color: white;
+            background-color: rgb(34, 33, 33);
+            margin-left: 20px;
+            border: 1px solid gray;
+            border-radius: 18px;
+            vertical-align: bottom;
+        }
+        .icons {
+            width: 25px;
+            height: 25px;
+            border-radius: 12.5px;
+            margin-left: 10px;
+        }
+        .assets {
+            background-color: rgb(35, 36, 43);
+            width: 90%;
+            height: 90%;
+            margin-left: 50px;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="side-bar">
+            <div class="top-items">
+                <div class="menu-items active">
+                    <a id="activ" href="#">Portfolio</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Swap</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Bridge</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Watchlist</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Settings</a>
+                </div>
+            </div>
+            <div class="middle-items">
+                <div class="menu-items">
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Contact</a>
+                </div>
+                <button class="light-button">light</button>
+            <div class="terms">
+                <a href="#" target="_blank">
+                    Terms and services
+                </a>
+            </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav-title">
+                <div class="title">
+                    Portfolio
+                </div>
+                <div class="select-button">
+                    <img src="../Youtube/assets/channels/channel-1.jpeg" alt="" class="icons">
+                    <select name="account" id="acc">
+                        <option value="network">All Accounts</option>
+                        <option value="bsc">Binance</option>
+                        <option value="avalanche">Avalance</option>
+                        <option value="ethereum">Ethereum</option>
+                    </select>
+                </div>
+            </div>
+            <div class="net-worth">
+                <p class="net-sub">
+                    Net Worth
+                </p>
+                <p class="net-value">
+                    &dollar;1,130,051.65
+                </p>
+            </div>
+            <div class="assets">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex {
+                display: flex;
+                flex-direction: row;
+            }
+            .one {
+                background-color: lightcoral;
+                width: 100px;
+            }
+            .two {
+                background-color: lightblue;
+                display: flex;
+                width: 200px;
+                flex-direction: column;
+            }
+            .row2 {
+                display: flex;
+                color: whitesmoke;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .row2 > span {
+                background-color: black;
+            }
+            p {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="one"></div>
+            <div class="two">
+                <div class="row1">row1</div>
+                <div class="row2">
+                    <span>row2</span>
+                    <span>row2</span>
+                </div>
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>

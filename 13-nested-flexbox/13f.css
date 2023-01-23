@@ -1,0 +1,61 @@
+.gray {
+    color: rgb(96, 96, 96);
+}
+.tweet-box {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 490px;
+}
+.tweeter-icon {
+    margin: 10px;
+}
+.tweeter-icon > img {
+    width: 60px;
+}
+.tweet-body {
+    flex: 1;
+}
+.tweeter {
+    margin-bottom: 5px;
+}
+.tweeter-name {
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.tweeter-handle {
+    font-size: 15px;
+    font-weight: 500;
+}
+.tweet > p {
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.youtube-link {
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 20px;
+    display: flex;
+    width: 350px;
+}
+.youtube-link > .img {
+    background-color: rgb(216, 210, 210);
+    width: 100px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+.link-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 15px;
+}
+.link-name > p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.link-name > .youtube-desc {
+    line-height: 20px;
+    margin-bottom: 5px;
+}

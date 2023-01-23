@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .profile-grid {
+                display: grid;
+                grid-template-columns: 150px 150px 150px;
+                column-gap: 10px;
+                align-items: cente;
+            }
+            .profile {
+                font-family: Arial;
+                display: grid;
+                border: none;
+                width: 150px;
+                height: 250px;
+                margin-right: 10px;
+                box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+            }
+            img {
+                width: 100%;
+            }
+            .name {
+                font-weight: bold;
+                font-size: 14px;
+                margin-top: 0;
+                margin-bottom: 5px;
+            }
+            .friends {
+                font-size: 12px;
+                color: gray;
+                margin-top: 0;
+            }
+            button {
+                background-color: rgb(1, 101, 250);
+                color: white;
+                border-radius: 5px;
+                border: none;
+                padding: 10px 15px;
+            }
+            .desc {
+                padding: 5px;
+            }
+            .profile-icon {
+                display: grid;
+                grid-template-columns: 20px 1fr;
+                column-gap: 5px;
+                vertical-align: t;
+            }
+            .img {
+                width: 18px;
+                border-radius: 9px;
+                vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="profile-grid">
+
+            <div class="profile">
+                <div class="profile-pic">
+                    <img src="../Youtube/assets/channels/channel-1.jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <p class="name">
+                        Oliver
+                    </p>
+                    <div class="profile-icon">
+                        <div class="icon">
+                            <img class="img" src="../Youtube/assets/channels/channel-4.jpeg" alt="">
+                        </div>
+                        <div class="friend-count">
+                            <p class="friends">
+                                2 mutual friends
+                            </p>
+                        </div>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-pic">
+                    <img src="../Youtube/assets/channels/channel-2.jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <p class="name">
+                        Oliver
+                    </p>
+                    <div class="profile-icon">
+                        <div class="icon">
+                            <img class="img" src="../Youtube/assets/channels/channel-4.jpeg" alt="">
+                        </div>
+                        <div class="friend-count">
+                            <p class="friends">
+                                4 mutual friends
+                            </p>
+                        </div>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-pic">
+                    <img src="../Youtube/assets/channels/channel-3.jpeg" alt="">
+                </div>
+                <div class="desc">
+                    <p class="name">
+                        Oliver
+                    </p>
+                    <div class="profile-icon">
+                        <div class="icon">
+                            <img class="img" src="../Youtube/assets/channels/channel-4.jpeg" alt="">
+                        </div>
+                        <div class="friend-count">
+                            <p class="friends">
+                                3 mutual friends
+                            </p>
+                        </div>
+                    </div>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
